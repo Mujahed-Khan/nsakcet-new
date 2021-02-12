@@ -1,0 +1,11 @@
+
+#root>div>fragment>div>div:nth-child(1){
+    margin: 20px;
+    box-shadow: 0 0 10px;
+    
+}
+#root>div>fragment>div>div.col-lg-8{
+    margin: 20px;
+    box-shadow: 0 0 10px;
+
+}
