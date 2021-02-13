@@ -9,7 +9,7 @@ export const Department = () => {
                 <Col xs lg="2">
                     <Card style={{ width: '18rem' }}>
                         {/* UG DEPARTMENT */}
-                        <Card.Header style={{background:'lightblue',fontWeight:'bold'}}>UG DEPARTMENT</Card.Header>
+                        <Card.Header style={{background:'#5c6873',fontWeight:'bold'}}>UG DEPARTMENT</Card.Header>
                         <ListGroup variant="flush">
                             <Card.Body>
                                 <Card.Link href="#">B.TECH (CSE)</Card.Link>
@@ -41,7 +41,7 @@ export const Department = () => {
                             </Card.Body>
                         </ListGroup>
                         {/* PG DEPARTMENT */}
-                        <Card.Header style={{background:'lightblue',fontWeight:'bold'}}>PG DEPARTMENT</Card.Header>
+                        <Card.Header style={{background:'#5c6873',fontWeight:'bold'}}>PG DEPARTMENT</Card.Header>
                         <ListGroup variant="flush">
                             <Card.Body>
                                 <Card.Link href="#">M.TECH (CSE)</Card.Link>
@@ -63,7 +63,7 @@ export const Department = () => {
                                 <Card.Link href="#">M.TECH (ECE-ES)</Card.Link>
                             </Card.Body>
                         </ListGroup>
-                        <Card.Header style={{background:'lightblue',fontWeight:'bold'}}>POLYTECHNIC DEPARTMENT</Card.Header>
+                        <Card.Header style={{background:'#5c6873',fontWeight:'bold'}}>POLYTECHNIC DEPARTMENT</Card.Header>
                         <ListGroup variant="flush">
                             <Card.Body>
                                 <Card.Link href="#">POLYTECHNIC (CIVIL)</Card.Link>
@@ -85,7 +85,7 @@ export const Department = () => {
                             </Card.Body>
                         </ListGroup>
                         
-                        <Card.Header style={{background:'lightblue',fontWeight:'bold'}}>OTHER DEPARTMENT</Card.Header>
+                        <Card.Header style={{background:'#5c6873',fontWeight:'bold'}}>OTHER DEPARTMENT</Card.Header>
                         <ListGroup variant="flush">
                             <Card.Body>
                                 <Card.Link href="#">ADDMISSION</Card.Link>
@@ -105,7 +105,7 @@ export const Department = () => {
                 </Col>
                 <Col lg="8">
                     <Table striped bordered hover>
-  <thead style={{background:'lightblue'}}>
+  <thead style={{background:'#5c6873',color:'white'}}>
     <tr>
       <th>Sr.No.</th>
       <th>Faculty photo</th>
